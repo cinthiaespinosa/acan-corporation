@@ -1,0 +1,85 @@
+<html>
+<head>
+<title> FORMULARIO ANIMALES </title>
+</head>
+<body bgcolor="DB7093">
+<center> <h1><font face="FangSong" color="#FFFFFF"> FORMULARIO MAMIFEROS EN PELIGRO DE EXTINCION </font></h1> </center>
+<form action="mailto:Alejandradelacruz.12@outlook.com" method="post" enctype="text/plain">
+<table bgcolor="#D8BFD8" align="CENTER" border="3" width="85%">
+<tr> <td> Nombre: <input type=text name=Nombre size=40> </td>
+<td> Clave: <input type=password name=Clave maxlength=5 size=10> </td> 
+<tr> <td> Turno: <input type=hidden name=Turno size=10> 
+<select name=Turno>
+<option> MATUTINO
+<option> VESPERTINO
+</select> </td>
+<td> EDAD:
+<input type=radio name=edad value="16">16
+<input type=radio name=edad value="17">17
+<input type=radio name=edad value="más de 18">+18
+</td>
+<tr> <td> 1.- ¿Qué entienden por extinción? </td> 
+<td> <input type=hidden name=pregunta1 size=10>
+<select name=donde>
+<option> No hay ningún integrante capaz de reproducirse
+<option> Dar lugar a una nueva generación
+<option> Animales cautivos
+<option> Animales que hay en mayor  cantidad
+</select> </td> </tr> 
+<tr> <td> 2.-  ¿Cuáles son las causas de extinción más comunes en los animales? </td> 
+<td> <input type=hidden name=pregunta2 size=10>
+<select name=donde>
+<option> Incapaces de reproducirse.
+<option> Por la capacidad de trasladarse a un ambiente nuevo.
+<option> Deforestación 
+</select> </td> </tr> 
+<tr> <td> 3.- ¿Qué consecuencias podría traer la extinción de una especie?</td>
+<td> <input type=hidden name=pregunta3 size=10>
+<select name=donde>
+<option> Puede originar un desequilibrio en el ecosistema que puede llevar a la desaparición de más especies
+<option> Ayudar a otras especies.
+<option> Colaborar con el ecosistema.
+</select> </td> </tr> 
+<tr> <td> 4.- ¿Qué opinan del maltrato de los animales? </td> 
+<td> <input type=text name=pregunta4 size=20> </td> </tr>
+<tr> <td> 5.-  ¿Qué alternativas de solución proponen para combatir este problema?  </td>
+<td> <input type=hidden name=pregunta5 size=10>
+<select name=donde>
+<option> Evitar el contacto de los seres humanos con la naturaleza.
+<option> Mantener aislada a la especie en peligro de extinción de cualquier peligro potencial
+<option> Ayudar al aumento de la especie.
+</select> </td> </tr> 
+<tr> <td> 6.- Si en sus manos está salvar una especie ¿cuál escogerían y por qué? </td>
+<td> <input type=text name=pregunta6 size=20> </td> </tr>
+<tr> <td> 7.- ¿Cómo incentivar a las personas para no prolongar la extinción de animales? </td> 
+<td> <input type=hidden name=pregunta7 size=10>
+<select name=donde>
+<option> Pidiendo mensajes de ayuda
+<option> Incentivándolos económicamente
+<option> Haciéndoles conocer acerca de los peligros que no solo corre la especie sino toda la naturaleza.
+</select> </td> </tr> 
+<tr> <td> 8.- ¿Qué relación tienen los animales en peligro de extinción con los animales en cautiverio?  </td>
+<td> <input type=hidden name=pregunta8 size=10>
+<select name=donde>
+<option> Los dos corren peligro de desaparecer
+<option> Los dos son tomados en cuenta como especies en peligro.
+<option> Los dos comparten los mismos hábitats.
+</select> </td> </tr> 
+<tr> <td> 9.- ¿Conoces medidas que ya se hallan tomado para solucionar este problema? </td>
+<td> <input type=radio name=pregunta9 value="Si">Si
+<input type=radio name=pregunta9 value="No">No
+</td> </tr> 
+<tr> <td> 10.- ¿Conoce cuantas especies han desaparecido por causa del hombre?  </td>
+<td> <input type=radio name=pregunta10 value="Si">Si
+<input type=radio name=pregunta9 value="No">No
+</td> </tr> 
+</table>
+<p>
+<center><font color="#EBDEF0" face="Bell MT" size="5"><b>Comentarios:</b> </center> 
+<center> <textarea name=comentario rows=10 cols=40 wrap=virtual> </textarea> </center>
+<center> <input  type=submit value="Enviar"> 
+<input  type=reset value="Borrar"> </center>
+</p>
+</form>
+</body>
+</html>
